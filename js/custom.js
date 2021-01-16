@@ -70,5 +70,40 @@ $(function(){
 // })
 
 
+$(function(){
+    $("#menu-items").owlCarousel({
+        items:3,
+        autoplay:true,
+        smartspeed:700,
+        loop:true,
+        autoplayHoverPause:true,
+    });
+    
+});
 
+
+
+
+$(function(){
+    $("#menu-items2").owlCarousel({
+        items:3,
+        autoplay:true,
+        smartspeed:700,
+        loop:true,
+        autoplayHoverPause:true,
+    });
+    
+});
+
+
+$(function(){
+    $("#menu-items3").owlCarousel({
+        items:3,
+        autoplay:true,
+        smartspeed:700,
+        loop:true,
+        autoplayHoverPause:true,
+    });
+    
+});
 
