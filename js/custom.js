@@ -19,6 +19,22 @@ $(function(){
         smartspeed:700,
         loop:true,
         autoplayHoverPause:true,
+        responsiveClass:true,
+        responsive:{
+            0:{
+                items:1,
+                nav:false
+            },
+            600:{
+                items:3,
+                nav:false
+            },
+            1000:{
+                items:3,
+                nav:false,
+                loop:false
+            }
+        }
     });
     
 });
@@ -74,9 +90,27 @@ $(function(){
     $("#menu-items").owlCarousel({
         items:3,
         autoplay:true,
-        smartspeed:700,
+        smartspeed:600,
         loop:true,
-        autoplayHoverPause:true,
+        autoplayHoverPause:true, 
+        responsiveClass:true,
+        responsive:{
+            0:{
+                items:1,
+                nav:false
+            },
+            600:{
+                items:3,
+                nav:false
+            },
+            1000:{
+                items:3,
+                nav:false,
+                loop:false
+            }
+        }
+        
+
     });
     
 });
@@ -88,9 +122,25 @@ $(function(){
     $("#menu-items2").owlCarousel({
         items:3,
         autoplay:true,
-        smartspeed:700,
+        smartspeed:600,
         loop:true,
         autoplayHoverPause:true,
+        responsiveClass:true,
+        responsive:{
+            0:{
+                items:1,
+                nav:false
+            },
+            600:{
+                items:3,
+                nav:false
+            },
+            1000:{
+                items:3,
+                nav:false,
+                loop:false
+            }
+        }
     });
     
 });
@@ -100,10 +150,32 @@ $(function(){
     $("#menu-items3").owlCarousel({
         items:3,
         autoplay:true,
-        smartspeed:700,
+        smartspeed:600,
         loop:true,
         autoplayHoverPause:true,
+        responsiveClass:true,
+        responsive:{
+            0:{
+                items:1,
+                nav:false
+            },
+            600:{
+                items:3,
+                nav:false
+            },
+            1000:{
+                items:3,
+                nav:false,
+                loop:false
+            }
+        }
     });
     
 });
+
+$(function(){
+    $(".navbar-collapse ul li a").on("click touch",function(){
+        $(".navbar-toggle").click();
+    });
+})
 
